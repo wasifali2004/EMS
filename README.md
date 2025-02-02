@@ -1,8 +1,51 @@
-# React + Vite
+Task Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+This project is a Task Management Dashboard built using React.js and Tailwind CSS. It displays task statistics such as active, completed, failed, and new tasks for employees.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+
+📊 Task Summary: Displays active, completed, failed, and new tasks.
+
+🎨 Styled with Tailwind CSS for a modern UI.
+
+🚀 Dynamic Data Handling: React components update based on provided data.
+
+Tech Stack
+
+Frontend: React.js, Tailwind CSS
+
+State Management: Props-based state handling
+
+Installation & Setup
+
+Prerequisites
+
+Make sure you have Node.js and npm/yarn installed.
+
+Project Structure:
+├── src
+│   ├── components
+│   │   ├── Dashboard
+│   │   │   ├── EmployeeDash.jsx
+│   │   ├── other
+│   │   │   ├── TaskNumber.jsx
+│   ├── context
+│   │   ├── AuthProvides.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+├── public
+├── package.json
+└── README.md
+
+Contributing
+
+Feel free to fork and contribute! Open an issue if you find bugs. 🚀
+
+License
+
+This project is licensed under the MIT License.
+
+⭐ Star this repo if you find it useful!
+
